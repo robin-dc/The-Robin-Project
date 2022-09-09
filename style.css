@@ -54,6 +54,10 @@ p{
     border-radius:.5rem;
     padding:.8rem 1rem;
     width: 11rem;
+    display:flex;
+    justify-content: center;
+    gap:.7rem;
+    align-items: center;
     text-align: center;
 }
 .btn:hover{
@@ -386,6 +390,9 @@ footer .container{
     .sec_left{
         padding-top: 5rem;
     }
+    .btn{
+        width:100%;
+    }
     .sec_right{
         width:100%;
         background-position: center;
@@ -416,6 +423,7 @@ footer .container{
     .proj_box{
         width:100%;
     }
+    /* ======= CONTACT ======== */
     form{
         width:100%;
     }
