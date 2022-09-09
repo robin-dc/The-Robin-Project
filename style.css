@@ -126,6 +126,7 @@ nav .container, #section1 .container, footer .container, .navi, .socmed{
     padding:5rem 0 0 0;
     display:flex;
     gap:1.5rem;
+    width:100%;
 }
 
 
@@ -392,6 +393,9 @@ footer .container{
     }
     .btn{
         width:100%;
+    }
+    .btn_bottom{
+        width:11rem; 
     }
     .sec_right{
         width:100%;
