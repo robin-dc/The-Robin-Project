@@ -67,6 +67,7 @@ p{
 }
 .wrapper{
     width:80%;
+    max-width:1100px;
     margin:0 auto;
 }
 
@@ -112,6 +113,7 @@ nav .container, #section1 .container, footer .container, .navi, .socmed{
     display:flex;
     justify-content: center;
     background-image: url(images/circle-removebg-preview.png);
+    background-size: cover;
 
 }
 .sec_right img{
@@ -184,7 +186,7 @@ nav .container, #section1 .container, footer .container, .navi, .socmed{
     gap:1rem;
 }
 .proj_box{
-    width:49.2%;
+    width:49%;
     position:relative;
     opacity:0.7;
 }
@@ -309,7 +311,7 @@ footer .container{
 }
 /* ======================================== MEDIA QUERRIES =================================== */
 
-@media (max-width:820px){
+@media (max-width:1000px){
     /* ======= NAV ==========  */
     nav{
         position: relative;
@@ -432,5 +434,3 @@ footer .container{
         width:100%;
     }
 }
-
-
