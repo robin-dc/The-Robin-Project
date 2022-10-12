@@ -189,6 +189,7 @@ nav .container, #section1 .container, footer .container, .navi, .socmed{
     width:49%;
     position:relative;
     opacity:0.7;
+    border-radius: .5rem;
 }
 .proj_box:hover{
     opacity:1;
@@ -207,6 +208,7 @@ nav .container, #section1 .container, footer .container, .navi, .socmed{
 }
 .proj_box img{
     width:100%;
+    border-radius: .5rem;
 }
 .proj_box img:hover{
     transform: scale(1.3);
